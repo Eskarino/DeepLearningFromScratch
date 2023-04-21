@@ -2,7 +2,7 @@ from DLfromScratch.Layers import Dense
 from DLfromScratch.Activations import LeakyRelu, Sigmoid, Softmax
 from DLfromScratch.Model import Model, Cost
 
-from Iris import Iris_data
+from Iris_Data_Preparation import Iris_data
 
 
 def create_model(input_dim, nb_examples, output_dim):
